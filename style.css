@@ -24,6 +24,13 @@ html, body {
     height: 9vh;
 }
 
+#logo {
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(240, 119, 119);
+}
+
 h1 {
     font-size: 1.7rem;
 }
@@ -45,12 +52,15 @@ p{
 }
 
 .left{
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
+    position: relative;
 }
 
 .block{
-    margin-top: 1rem;
+    position: absolute;
+    right: -7rem;
+    top: 1rem;
 }
 
 .nav-links{
