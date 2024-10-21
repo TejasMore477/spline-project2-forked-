@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    padding: 1rem 3rem;
+}
+
+.nav{
+    height: 9vh;
+}
+
+h1 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: 0.87rem;
+    line-height: 0.9rem;
+}
+
+.flexp{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left{
+    gap: 3rem;
+    align-items: center;
+}
+
+.block{
+    margin-top: 1rem;
+}
+
+.nav-links{
+    margin-top: 1rem;
+    gap: 25PX;
+    align-items: center;
+}
+
+.container{
+    margin-top: 1rem;
+    height: calc(100% - 20vh);
+    width: 100%;
+}
+
+.footer{
+    margin-top: 2rem;
+    display: grid;
+    place-content: center;
+}
+
+.footer-links{
+    width: 20vw;
+}
+@media (max-width: 575.98px) {
+    .main {
+        height: 100%;
+        width: 100%;
+        background-color: rgb(44, 44, 44);
+        padding: 1rem 3rem;
+    }
+    
+    .nav{
+        height: 9vh;
+    }
+    
+    h1 {
+        font-size: 1.7rem;
+    }
+    
+    h3 {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    
+    p{
+        font-size: 0.87rem;
+        line-height: 0.9rem;
+    }
+    
+    .flexp{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .left{
+        gap: 3rem;
+        align-items: center;
+    }
+    
+    .block{
+        margin-top: 1rem;
+    }
+    
+    .nav-links{
+        margin-top: 1rem;
+        gap: 25PX;
+        align-items: center;
+    }
+    
+    .container{
+        margin-top: 1rem;
+        height: calc(100% - 20vh);
+        width: 100%;
+    }
+    
+    .footer{
+        margin-top: 2rem;
+        display: grid;
+        place-content: center;
+    }
+    
+    .footer-links{
+        width: 20vw;
+    }
+    
+    .copyright{
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
